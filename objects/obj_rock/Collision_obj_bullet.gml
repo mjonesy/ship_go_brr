@@ -1,5 +1,14 @@
 obj_game.points += 50;
 
+obj_game.rock_remaining -=1;
+
+if obj_game.rock_remaining == 0 {
+	obj_game.level +=1;
+	global.rock_speed += 1;
+	obj_game.rock_remaining = 20;
+}
+
+
 instance_destroy(other);
 effect_create_above(ef_explosion, x, y, 1, c_white);
 
@@ -11,6 +20,6 @@ if sprite_index == spr_rock_big {
 } else if instance_number(obj_rock) < 12 {
 	sprite_index = spr_rock_big;
 	x = -100;
-} else {
-	instance_destroy();	
+} else {	
+	instance_destroy();
 }

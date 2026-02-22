@@ -6,6 +6,7 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
+    {"name":"inst_22D8762F","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_568091C3","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_41F305D5","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_54C8F235","path":"rooms/rm_game/rm_game.yy",},
@@ -13,7 +14,6 @@
     {"name":"inst_542B8AF0","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_301E19AB","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_78A76856","path":"rooms/rm_game/rm_game.yy",},
-    {"name":"inst_22D8762F","path":"rooms/rm_game/rm_game.yy",},
   ],
   "isDnd":false,
   "layers":[

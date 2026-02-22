@@ -1,4 +1,4 @@
-speed = 1;
+speed = global.rock_speed;
 direction = random(360);
 image_angle = random(360);
 
