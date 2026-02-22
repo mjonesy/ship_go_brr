@@ -26,4 +26,11 @@ if (mouse_check_button_pressed(mb_left) || keyboard_check(vk_space)) && can_shoo
 		instance_create_layer(x, y, "Instances", obj_bullet);
 		can_shoot = false;
 		alarm[0] = fire_rate;
-}	
+}
+
+if (invincible_timer > 0) {
+	invincible_timer--;
+	image_alpha = 0.5;
+} else {
+	image_alpha = 1;
+}

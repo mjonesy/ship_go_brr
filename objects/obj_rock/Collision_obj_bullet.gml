@@ -1,4 +1,5 @@
 obj_game.points += 50;
+obj_game.asteroids_destroyed += 1;
 
 obj_game.rock_remaining -=1;
 
