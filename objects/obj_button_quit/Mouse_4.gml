@@ -1,4 +1,3 @@
-// Inherit the parent event
-event_inherited();
+y = ystart + 4;
 
-game_end();
+alarm[0] = 10;
