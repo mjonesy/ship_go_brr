@@ -22,15 +22,22 @@ move_wrap(true, true, 0)
 
 
 
-if (mouse_check_button_pressed(mb_left) || keyboard_check(vk_space)) && can_shoot {
+if (mouse_check_button_pressed(mb_left) || keyboard_check(vk_space))  {
 		instance_create_layer(x, y, "Instances", obj_bullet);
-		can_shoot = false;
-		alarm[0] = fire_rate;
+		//can_shoot = false;
+		//alarm[0] = fire_rate;
+		
+		if powerup == 1 {
+			var _bullet = instance_create_layer(x, y, "Instances", obj_bullet);
+			_bullet.direction += 10;
+			var _bullet = instance_create_layer(x, y, "Instances", obj_bullet);
+			_bullet.direction -= 10;
+		}
 }
 
-if (invincible_timer > 0) {
-	invincible_timer--;
-	image_alpha = 0.5;
-} else {
-	image_alpha = 1;
-}
+//if (invincible_timer > 0) {
+	//invincible_timer--;
+	//image_alpha = 0.5;
+//} else {
+//	image_alpha = 1;
+//}

@@ -1,1 +1,4 @@
-room_restart();
+
+if (visible) {
+	room_restart();
+}

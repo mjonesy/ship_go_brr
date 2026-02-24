@@ -9,3 +9,6 @@ global.rock_speed = 1;
 player_lives = 5;
 
 asteroids_destroyed = 0;
+
+powerup_time = 10;
+
