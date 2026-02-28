@@ -29,7 +29,6 @@
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"space_rocks_sounds_bc75355d53.zip","CopyToMask":-1,"filePath":"datafiles","name":"space_rocks_sounds_bc75355d53.zip","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"Synthetic_Design_02.caf","CopyToMask":-1,"filePath":"datafiles","name":"Synthetic_Design_02.caf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"synthetic_design_02.ogg","CopyToMask":-1,"filePath":"datafiles","name":"synthetic_design_02.ogg","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
@@ -39,6 +38,7 @@
   },
   "name":"ship go brr",
   "resources":[
+    {"id":{"name":"fnt_menu_title","path":"fonts/fnt_menu_title/fnt_menu_title.yy",},},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"LINK_TO_TUTORIALS","path":"notes/LINK_TO_TUTORIALS/LINK_TO_TUTORIALS.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
@@ -56,6 +56,7 @@
     {"id":{"name":"obj_powerup_spread","path":"objects/obj_powerup_spread/obj_powerup_spread.yy",},},
     {"id":{"name":"obj_rock_small","path":"objects/obj_rock_small/obj_rock_small.yy",},},
     {"id":{"name":"obj_rock","path":"objects/obj_rock/obj_rock.yy",},},
+    {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"snd_lose","path":"sounds/snd_lose/snd_lose.yy",},},
@@ -70,6 +71,7 @@
     {"id":{"name":"spr_powerup_spread","path":"sprites/spr_powerup_spread/spr_powerup_spread.yy",},},
     {"id":{"name":"spr_rock_big","path":"sprites/spr_rock_big/spr_rock_big.yy",},},
     {"id":{"name":"spr_rock_small","path":"sprites/spr_rock_small/spr_rock_small.yy",},},
+    {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
