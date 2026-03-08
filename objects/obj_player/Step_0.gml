@@ -22,10 +22,10 @@ move_wrap(true, true, 0)
 
 
 
-if (mouse_check_button_pressed(mb_left) || keyboard_check(vk_space))  {
+if (mouse_check_button_pressed(mb_left) || (keyboard_check(vk_space) && alarm[1] < 0))  {
 		instance_create_layer(x, y, "Instances", obj_bullet);
 		//can_shoot = false;
-		//alarm[0] = fire_rate;
+		alarm[1] = fire_rate;
 		
 		if powerup == 1 {
 			var _bullet = instance_create_layer(x, y, "Instances", obj_bullet);
