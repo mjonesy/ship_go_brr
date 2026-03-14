@@ -1,7 +1,13 @@
 obj_game.player_speed = speed;
 
 if keyboard_check(vk_up) || keyboard_check(ord("W")) {
-	motion_add(image_angle, 0.1)	
+	motion_add(image_angle, 0.1)
+	//instance_create_layer(x, y, "Instances", obj_flame);
+	show_fire = true;
+}
+
+if keyboard_check_released(vk_up) ||  keyboard_check_released(ord("W")) {
+	show_fire = false;
 }
 
 if keyboard_check(vk_left) || keyboard_check(ord("A"))  {
@@ -24,7 +30,6 @@ move_wrap(true, true, 0)
 
 if (mouse_check_button_pressed(mb_left) || (keyboard_check(vk_space) && alarm[1] < 0))  {
 		instance_create_layer(x, y, "Instances", obj_bullet);
-		//can_shoot = false;
 		alarm[1] = fire_rate;
 		
 		if powerup == 1 {
